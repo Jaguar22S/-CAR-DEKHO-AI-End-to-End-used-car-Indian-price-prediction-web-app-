@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right, #4afc61, #04ac5d);
+    color: #0e0c0c;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+
+}
+
+button:hover{
+background-position: right center;
+color: #e71f18;
+box-shadow: 0px 10px 40px rgba(24, 151, 173, 0.3);
+}
+
+button:active{
+    transform: translateY(2px);
+
+}
+
+
+
+#clear-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right, #4afc61, #04ac5d);
+    color: #0e0c0c;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#clear-button:hover {
+    background-position: right center;
+color: #e71f18;
+box-shadow: 0px 10px 40px rgba(24, 151, 173, 0.3);
+
+}
+
+#clear-button:active{
+
+transform: translateY(2px);
+}
+button:active {
+    transform: translateY(2px);
+}
+
+#clear-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right, #4afc61, #04ac5d);
+    color: #0e0c0c;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+#clear-button:hover {
+    background-position: right center;
+    color: #e71f18;
+    box-shadow: 0px 10px 40px rgba(24, 151, 173, 0.3);
+}
+
+#clear-button:active {
+    transform: translateY(2px);
+}
